@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xosp.nilac.changelog">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".MaintainersActivity"
+                android:label="XOSPMaintainers">
+        </activity>
+        <activity android:name=".devices.Bacon"
+                  android:label="Bacon ChangeLOG">
+        </activity>
+        <activity android:name=".devices.Bullhead"
+                  android:label="Bullhead ChangeLOG">
+        </activity>
+        <activity android:name=".devices.D802"
+                  android:label="D802 ChangeLOG">
+        </activity>
+        <activity android:name=".devices.Hammerhead"
+                  android:label="Hammerhead ChangeLOG">
+        </activity>
+        <activity android:name=".devices.Mako"
+                  android:label="Mako ChangeLOG">
+        </activity>
+        <activity android:name=".devices.Oneplus3"
+                  android:label="OnePlus3 ChangeLOG">
+        </activity>
+        <activity android:name=".devices.Z008"
+                  android:label="Z008 ChangeLOG">
+        </activity>
+        <activity android:name=".devices.Z00A"
+                  android:label="Z00A ChangeLOG">
+        </activity>
+    </application>
+
+</manifest>

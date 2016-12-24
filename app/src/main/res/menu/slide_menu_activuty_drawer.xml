@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Xperia Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/xosp_maintainers"
+            android:icon="@drawable/ic_xosp_changelog2"
+            android:title="@string/xosp_maintainers_title"/>
+        <!--<item
+            android:id="@+id/xosp_weekly_changelog"
+            android:icon="@drawable/changelog"
+            android:title="@string/xosp_weekly_changelog_title"/>-->
+    </group>
+
+        <item android:title="@string/xosp_devices_title">
+            <menu>
+                <item
+                    android:id="@+id/xosp_weeklies_bacon"
+                    android:icon="@drawable/device"
+                    android:title="bacon"/>
+                <item
+                    android:id="@+id/xosp_weeklies_bullhead"
+                    android:icon="@drawable/device"
+                    android:title="bullhead"/>
+                <item
+                    android:id="@+id/xosp_weeklies_d802"
+                    android:icon="@drawable/device"
+                    android:title="d802"/>
+                <item
+                    android:id="@+id/xosp_weeklies_hammerhead"
+                    android:icon="@drawable/device"
+                    android:title="hammerhead"/>
+                <item
+                    android:id="@+id/xosp_weeklies_mako"
+                    android:icon="@drawable/device"
+                    android:title="mako"/>
+                <item
+                    android:id="@+id/xosp_weeklies_oneplus3"
+                    android:icon="@drawable/device"
+                    android:title="oneplus3"/>
+                <item
+                    android:id="@+id/xosp_weeklies_z008"
+                    android:icon="@drawable/device"
+                    android:title="Z008"/>
+                <item
+                    android:id="@+id/xosp_weeklies_z00a"
+                    android:icon="@drawable/device"
+                    android:title="Z00A"/>
+            </menu>
+        </item>
+</menu>

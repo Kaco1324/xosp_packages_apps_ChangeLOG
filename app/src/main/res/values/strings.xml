@@ -14,7 +14,7 @@
     <string name="app_name">XOSPChangeLOG</string>
     <string name="navigation_drawer_open">Open the Navigation Drawer</string>
     <string name="navigation_drawer_close">Close the Navigation Drawer</string>
-    <string name="check_connection_title">Check again the connection!</string>
+    <string name="check_connection_title">Refresh Changelog</string>
     <string name="generic_maintain_string">Maintains</string>
     <string name="xosp_maintainers_title">Official Maintainers</string>
     <string name="xosp_weekly_changelog_title">Weekly ChangeLOG</string>

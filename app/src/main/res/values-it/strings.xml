@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Xperia Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">XOSPChangeLOG</string>
+    <string name="navigation_drawer_open">Aprire il Drawer di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi il Drawer di navigazione</string>
+    <string name="check_connection_title">Verificare nuovamente la connessione!</string>
+    <string name="generic_maintain_string">Manutentori</string>
+    <string name="xosp_maintainers_title">Manutentori ufficiali</string>
+    <string name="xosp_weekly_changelog_title">ChangeLOG settimanalmente</string>
+    <string name="xosp_devices_title">Dispositivi ufficiali</string>
+    <string name="xosp_contact_title">Errore di battitura o qualcosa di sbagliato nel changelog?</string>
+    <string name="xosp_contact_summary">Mail Us!</string>
+    <string name="generic_connection_state_true">Aggiornato ChangeLOG!</string>
+    <string name="generic_connection_state_false">Dannazione! Impossibile recuperare il changelog! Controlla la connessione e riprova</string>
+</resources>

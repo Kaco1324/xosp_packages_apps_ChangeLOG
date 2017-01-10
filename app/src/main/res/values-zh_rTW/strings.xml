@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Xperia Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">XOSPChangeLOG</string>
+    <string name="navigation_drawer_open">開啟側邊選單</string>
+    <string name="navigation_drawer_close">關閉側邊選單</string>
+    <string name="check_connection_title">取得更新日誌</string>
+    <string name="generic_maintain_string">開發/維護</string>
+    <string name="xosp_maintainers_title">官方維護人員</string>
+    <string name="xosp_weekly_changelog_title">每週更新日誌</string>
+    <string name="xosp_devices_title">官方支援裝置</string>
+    <string name="xosp_contact_title">更新日誌有錯?</string>
+    <string name="xosp_contact_summary">請寄信通知我們!</string>
+    <string name="generic_connection_state_true">已取得最新更新日誌!</string>
+    <string name="generic_connection_state_false">發生錯誤!請檢查網路連線!</string>
+</resources>

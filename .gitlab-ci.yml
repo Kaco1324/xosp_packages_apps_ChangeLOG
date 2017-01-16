@@ -1,0 +1,20 @@
+language: android
+jdk:
+  - oraclejdk8
+android:
+  components:
+  - extra-android-m2repository
+  - platform-tools
+  - tools
+  - build-tools-24.0.2
+  - android-24
+script: "./gradlew assembleDebug"
+deploy:
+  provider: releases
+  file: app/build/outputs/apk/app-debug.apk
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: XOSP-Project/xosp_packages_apps_ChangeLOG
+notifications:
+  email: true
